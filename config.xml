@@ -1,0 +1,53 @@
+<UserScriptConfig>
+	<Script basedir="discover" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Log into discover" enabled="false" filename="discover.user.js" installTime="1329083316631" modified="1333975832908" name="discover" namespace="mpb" runAt="document-end" uuid="83431878-eeec-438c-994a-39c8c42324af" version="">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Include>https://discover.com/</Include>
+		<Include>https://www.discover.com/</Include>
+	</Script>
+	<Script basedir="cal_tech_cu" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Log in to the Cal Tech CU site." enabled="true" filename="cal_tech_cu.user.js" installTime="1329083316632" modified="1360985230575" name="cal_tech_cu" namespace="mpb" runAt="document-end" uuid="9e9a3fa3-5c71-4723-8363-814ff02b94a1" version="">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Include>https://www.cefcuonline.org/</Include>
+	</Script>
+	<Script basedir="hrpassport" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Log in to the HR Passport site." enabled="true" filename="hrpassport.user.js" installTime="1329083316632" modified="1256823697244" name="hrpassport" namespace="mpb" runAt="document-end" uuid="a1e9d9e1-309b-4f83-ae31-005ebf0786d7" version="">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Include>https://www.hrpassport.com/Link2HR.eng?/Saf/Entry/Signon-form.htm</Include>
+	</Script>
+	<Script basedir="fixrilibrary" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Script to fix up the RI Library site." enabled="true" filename="fixrilibrary.user.js" installTime="1329083316633" modified="1320713075437" name="Fix RI Library" namespace="http://mebrady.net/" runAt="document-end" uuid="8974c0a2-14f5-4b18-9afc-b82c32076e43" version="">
+		<Grant>GM_log</Grant>
+		<Include>http://library.provlib.org/search/*/request*</Include>
+		<Include>https://catalog.oslri.net/iii/cas/login?*</Include>
+	</Script>
+	<Script basedir="schwabvisa" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Log in to the Schwab Visa site." enabled="true" filename="schwabvisa_login.user.js" installTime="1329083316633" modified="1282569875513" name="schwabvisa_login" namespace="mpb" runAt="document-end" uuid="43616ce8-8070-44f0-b552-b1c9073608c9" version="">
+		<Grant>none</Grant>
+		<Include>https://www.ibsnetaccess.com/NASApp/NetAccess/LoginDisplay</Include>
+	</Script>
+	<Script basedir="schwabvisa" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Log in to the Schwab Visa site." enabled="true" filename="schwabvisa_login_password.user.js" installTime="1329083316635" modified="1297776184419" name="schwabvisa_login_password.user.js" namespace="mpb" runAt="document-end" uuid="b5e7eddb-af91-4159-99a2-465ed9fe1bc5" version="">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Include>https://www.ibsnetaccess.com/NASApp/NetAccess/verifyCustAdditionalInfo.action</Include>
+	</Script>
+	<Script basedir="webster" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Fill in the user name at the Webster Bank site." enabled="true" filename="webster_username.user.js" installTime="1329083316635" modified="1314964151919" name="webster_username" namespace="mpb" runAt="document-end" uuid="41ad41b5-f05c-4a26-a028-d5911301358e" version="">
+		<Grant>none</Grant>
+		<Include>https://www.websteronline.com/personal/personal-homepage.html</Include>
+	</Script>
+	<Script basedir="webster" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Fill in the password at the Webster Bank site." enabled="true" filename="webster_password.user.js" installTime="1329083316636" modified="1314964145242" name="webster_password" namespace="mpb" runAt="document-end" uuid="31c62419-4d07-4e0d-8440-32b5a330cfbb" version="">
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_setValue</Grant>
+		<Include>https://www.websteronline.com/bank/login</Include>
+	</Script>
+	<Script basedir="webster" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Redirect to the Webster Bank export page." enabled="true" filename="webster_gotoexport.user.js" installTime="1329083316636" modified="1314964189935" name="webster_gotoexport" namespace="mpb" runAt="document-end" uuid="60bcb46f-b29d-4e96-ae20-936a5fd116ca" version="">
+		<Grant>none</Grant>
+		<Include>https://www.websteronline.com/bank/ds?action=df_accountbalances-AccountBalance</Include>
+	</Script>
+	<Script basedir="webster" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Select the kind of export at the Webster Bank site." enabled="true" filename="webster_exportselect.user.js" installTime="1329083316637" modified="1314964285953" name="webster_exportselect" namespace="mpb" runAt="document-end" uuid="8986053d-8325-4718-a0d2-d41b698c1d60" version="">
+		<Grant>none</Grant>
+		<Include>https://www.websteronline.com/bank/com.websterbank.servlets.DS?action=df_transaction-ExportList</Include>
+	</Script>
+	<Script basedir="webster" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Export a quicken file at the Webster Bank site." enabled="true" filename="webster_export.user.js" installTime="1329083316637" modified="1273500029966" name="webster_export" namespace="mpb" runAt="document-end" uuid="5389e5e5-54b9-4c1d-96a8-5776b225e048" version="">
+		<Grant>none</Grant>
+		<Include>https://www.websteronline.com/bank/com.websterbank.servlets.DS</Include>
+	</Script>
+</UserScriptConfig>

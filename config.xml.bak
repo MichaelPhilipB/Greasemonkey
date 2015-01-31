@@ -1,0 +1,77 @@
+<UserScriptConfig>
+
+  <Script filename="discover.user.js"
+          name="discover"
+          namespace="mpb"
+          description="Log into discover"
+          enabled="true"
+          basedir="discover">
+    <Include>http://discovercard.com/</Include>
+    <Include>http://www.discovercard.com/</Include>
+  </Script>
+
+  <Script filename="cal_tech_cu.user.js"
+          name="cal_tech_cu"
+          namespace="mpb"
+          description="Log in to the Cal Tech CU site."
+          enabled="true"
+          basedir="cal_tech_cu">
+    <Include>https://www.cefcuonline.org/</Include>
+  </Script>
+
+  <Script filename="hrpassport.user.js"
+          name="hrpassport"
+          namespace="mpb"
+          description="Log in to the HR Passport site."
+          enabled="true"
+          basedir="hrpassport">
+    <Include>https://www.hrpassport.com/Link2HR.eng?/Saf/Entry/Signon-form.htm</Include>
+  </Script>
+
+  <Script filename="fixrilibrary.user.js"
+          name="fixrilibrary"
+          namespace="mpb"
+          description="Clean up the RI library site."
+          enabled="true"
+          basedir="fixrilibrary">
+    <Include>https://catalog.oslri.net/search*/request*</Include>
+    <Include>https://catalog.oslri.net/patroninfo*</Include>
+  </Script>
+
+  <Script filename="schwabvisa_login.user.js"
+          name="schwabvisa_login"
+          namespace="mpb"
+          description="Log in to the Schwab Visa site."
+          enabled="true"
+          basedir="schwabvisa">
+    <Include>https://www.ibsnetaccess.com/NASApp/NetAccess/LoginDisplay</Include>
+  </Script>
+
+  <Script filename="webster_username.user.js"
+          name="webster_username"
+          namespace="mpb"
+          description="Fill in the user name at the Webster Bank site."
+          enabled="true"
+          basedir="webster">
+    <Include>https://www.websteronline.com/personal/personal-homepage.html</Include>
+  </Script>
+
+  <Script filename="webster_gotoexport.user.js"
+          name="webster_gotoexport"
+          namespace="mpb"
+          description="Redirect to the Webster Bank export page."
+          enabled="true"
+          basedir="webster">
+    <Include>https://www.websteronline.com/bank/com.websterbank.servlets.DS?action=df_accountbalances-AccountBalance</Include>
+  </Script>
+
+  <Script filename="webster_export.user.js"
+          name="webster_export"
+          namespace="mpb"
+          description="Export a quicken file at the Webster Bank site."
+          enabled="true"
+          basedir="webster">
+    <Include>https://www.websteronline.com/bank/com.websterbank.servlets.DS?action=df_transaction-ExportList</Include>
+  </Script>
+
+</UserScriptConfig>
